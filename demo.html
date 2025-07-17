@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    body{
+        margin: 0;
+  overflow-x: hidden;
+
+    }
+    .main{
+        height: 90px;
+        width: 100%;
+        top: 0;
+        margin: 0;
+        position: sticky;
+        background-color: white;
+        z-index: 1000;
+    
+    }
+   .sys{
+    position:absolute;
+    height: 40px;
+    width: 40px;
+    top: 6px;
+    right: 700px;
+    margin: 0;
+   }
+   .mobile{
+    position:absolute;
+    height: 40px;
+    width: 40px;
+    top: 6px;
+    right: 600px;
+    margin: 0px;
+   } 
+   .vl {
+  border-left: 2px solid rgb(57, 56, 56);
+  height: 40px;
+  position: absolute;
+  left: 38%;
+  top:19px;
+}
+strong{
+    margin: 0px;
+    position:relative;
+    top: 20px;
+    left: 40px;
+font-size: xx-large;
+}
+.header{
+    background-color: rgb(184, 240, 100);
+    height: 70px;
+    width: 100%;
+margin: 0;
+}
+a{
+    position: relative;
+    color:rgb(50, 48, 48);
+    align-items: end;
+    margin: 0px;
+    left: 1100px;
+    padding-right: 40px;
+    font-size: x-large;
+    text-decoration: none;
+    
+}
+p{
+    position: relative;
+    top: 25px;
+    left: 50px;
+    font-size: large;
+    margin: 0px;
+}
+.hd{
+    position: absolute;
+    left: 50%;
+    top: 35px;
+}
+.edit{
+    position:absolute;
+    left: 88%;
+    top: 24px;
+    background-color: #5454f1;
+    border-radius: 20px;
+    padding: 12px;
+    width: 150px;
+    color: white;
+    cursor: pointer;
+
+
+}
+.read{
+    position: absolute;
+    margin: 0;
+    top: 38px;
+    left: 1130px;
+    font-size: 15px;
+    text-decoration: underline;
+    cursor: pointer;
+    background: transparent;
+    padding: 0;
+}
+.first1{
+    width: 50%;
+    margin: 0;
+    height:917px;
+    padding: 0;
+    float: left;
+}
+.first2{
+    margin: 0;
+    width: 50%;
+    height: 917px;
+    float: right;
+}
+.first3{
+    width: 50%;
+    margin: 0;
+    height: 1037px;
+    float: left;
+    position: relative;
+}
+.first4{
+width: 50%;
+    margin: 0;
+    padding: 0;
+    height: 1037px;
+    float: right;
+    border: 0;
+}
+img{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+h1{
+    margin: 0;
+    position: absolute;
+    top: 5%;
+    left: 20%;
+    font-size: 50px;
+    font-weight: 20    0;
+}
+.p3{
+margin: 0;
+position: absolute;
+width: 60%;
+top: 15%;
+left: 20%;
+
+}
+.img3{
+    position: absolute;
+    left: 15%;
+    height: 440px;
+    width: 354px;
+    top: 40%;
+}
+.first5{
+    background-color: rgb(199, 198, 198);
+    height: 917px;
+    width: 50%;
+    margin: 0;
+    float:left ;
+}
+.first6{
+height: 917px;
+    width: 50%;
+    margin: 0;
+    float:right ;
+    position: relative;
+}
+.s6{
+background-color:  rgb(199, 198, 198);
+width: 60%;
+margin: 0;
+position: absolute;
+height: 230px;
+right: 80px;
+top: 50px;
+}
+.s7{
+background-color: rgb(199, 198, 198);
+width: 60%;
+margin: 0;
+position: absolute;
+height: 230px;
+right: 80px;
+top: 350px;
+}
+.s8{
+background-color:  rgb(199, 198, 198);
+width: 60%;
+margin: 0;
+position: absolute;
+height: 230px;
+right: 80px;
+top: 680px;
+}
+h2{
+    position:absolute;
+    margin: 0;
+    left: 50px;
+    padding-top: 50px;
+    font-size: 70px;
+    font-weight: lighter;
+    color: darkolivegreen;
+}
+h3{
+    position: absolute;
+    left: 70px;
+    font-weight: lighter;
+    color: darkolivegreen;
+    font-size: x-large;
+}
+.p6,.p7,.p8{
+position: absolute;
+top: 100px;
+left: 20px;
+color: darkolivegreen ;
+font-weight: lighter;
+text-align: justify;
+padding-right: 50px;
+
+}
+.first7{
+    position: relative;
+    height: 110px;
+    width: 100%;
+    margin:0;
+    border: 2px solid black;
+    border-top:2px solid black ;
+    border-right:2px solid black ;
+    border-width: 2px;
+    float: left;
+}
+marquee{
+    position: absolute;
+    color: darkolivegreen;
+    width: 100%;
+    margin: 0;
+    font-size: 4cqmax;
+    top: 18px;
+    font-weight: 100;
+
+}
+.first8{
+    width: 50%;
+    height: 500px;
+    margin: 0;
+    float: left;
+    position: relative;
+
+}
+.mission{
+    position: absolute;
+    top: 300px;
+    width: 40%;
+    text-align: justify;
+    font-size: x-large;
+}
+
+.first9{
+    width: 50%;
+    height:500px ;
+    margin: 0;
+    background-color: rgb(184, 240, 100);
+    float: right;
+    position: relative;
+}
+.precision{
+position: absolute;
+top: 150px;
+text-align: justify;
+font-size: x-large;
+width: 70%;
+left: 15%;
+}
+.first10{
+    margin: 0;
+    height: 600px;
+    width: 100%;
+    float: left;
+    background-color: rgb(199, 198, 198);
+    position: relative;
+
+}
+.partner{
+    position: absolute;
+    margin: 0;
+    font-size: 7cqmax;
+    left: 35%;
+    color: darkolivegreen;
+
+}
+.innovative{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    text-align: justify;
+    width: 45%;
+    left:30%;
+    top: 35%;
+    font-size: medium;
+    color: darkolivegreen  ;
+}
+.first11{
+    margin: 0;
+    width: 100%;
+    height:300px ;
+    float: left;
+    position: relative;
+}
+.f11{
+    position: absolute;
+    left: 0px;
+    background-color: #5454f1;
+}
+address{
+    position: absolute;
+    margin: 0;
+    left: 200px;
+    float: right;
+}
+
+
+    </style>
+</head>
+<body>
+    <div class="main"><strong>WIX </strong> <a href=""><img class="sys" src="monitor.png" alt=""> <img class="mobile" src="mobile-phone.png" alt=""></a>
+    <div class="vl"></div>
+<p class="hd"> Click edit and create your own amazing website</p>
+<a class="read" href="" alt="">Read More</a><button class="edit">Edit the site</button>
+</div>
+
+    <div class="header">
+        <p>D.Sullivan</p>
+         <a  href="">About</a>
+    <a href=""> services</a>
+    <a href="">clients</a>
+    </div>
+     <div class="first1"> <img src="https://static.wixstatic.com/media/84770f_3595f674a0ee45a486054ed637565156~mv2.jpg/v1/fill/w_649,h_1215,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_3595f674a0ee45a486054ed637565156~mv2.jpg" alt=""></div>
+     <div  class="first2"> <img src="https://static.wixstatic.com/media/84770f_843498edcdd242dcb428a08540c4f021~mv2.jpeg" alt=""></div>
+    <div class="first3"> <h1>About Us</h1> <p class="p3"> 
+Located in Denver, Colorado, D. Sullivan is at the forefront of
+ sustainable farming practices.
+  With a team of 50 experts, we are dedicated to reducing water usage and increasing crop productivity through innovative technology. 
+  Our mission is to lead the agritech industry towards a more sustainable and efficient future.</p>
+<img class="img3" src="https://static.wixstatic.com/media/84770f_299ee0ca65d7481b94e6baf56c17534b~mv2.jpeg/v1/fill/w_469,h_583,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/84770f_299ee0ca65d7481b94e6baf56c17534b~mv2.jpeg" alt=""></div>
+     <div class="first4"><img src="https://static.wixstatic.com/media/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg/v1/fill/w_649,h_1374,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/11062b_22aec8595f784a679f03fe4145286f86~mv2.jpg" alt=""></div>
+
+<div class="first5"><h2>Service</h2></div>
+<div class="first6">
+    <div class="s6"><h3>
+🍁Innovative Solutions
+        </h3><p class="p6">Our advanced farming techniques are designed to enhance crop growth, improve efficiency, and promote sustainable agricultural practices.
+ </p></div>
+    <div class="s7"><h3> 🍁Smart Irrigation Systems</h3>
+        <p class="p7">Our precision agriculture methods and 
+            smart irrigation systems ensure optimal water usage 
+            and crop management, leading to increased yields
+             and environmental conservation.</p>
+    </div>
+    <div class="s8"> <h3>🍁Crop Monitoring Technology</h3>
+    <p class="p8">By utilizing crop monitoring technology and 
+        data-driven insights, we provide farmers with 
+        the necessary tools to make informed decisions, 
+        monitor crop health, and maximize production.</p></div>
+</div>
+<div class="first7">
+    <marquee behavior="scroll" direction="left">GREEN TECHNOLOGY</marquee>
+</div>
+<div class="first8">
+    <h2>The Future of Agriculture</h2>
+    <p class="mission">Our mission is to revolutionize the future of agriculture.</p>
+</div>
+<div class="first9"><p class="precision">From precision agriculture and AI-driven analytics to smart irrigation and drone monitoring, we empower farmers with innovative solutions to
+     optimize resources and boost productivity.</p></div>
+     <div class="first10"> <p class="partner"> Our Partners</p>
+    <p class="innovative">The innovative solutions have transformed our 
+        farming practices and increased our productivity significantly.</p></div>
+
+ 
+    </body>
+</html>
